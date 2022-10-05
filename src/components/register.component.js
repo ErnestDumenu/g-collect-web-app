@@ -160,13 +160,15 @@ class Register extends Component {
     const { message } = this.props;
 
     return (
-      <div className="col-md-12">
-        <div className="card card-container">
+      <div className="col-md-12 App">
+        <div className="col-md-8 card card-container">
+        <h2> Sign Up</h2>
           <img
             src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
             alt="profile-img"
             className="profile-img-card"
           />
+          
 
           <Form
             onSubmit={this.handleRegister}
@@ -177,6 +179,7 @@ class Register extends Component {
             {!this.state.successful && (
               <div>
                 <div className="form-group">
+                
                   <label htmlFor="first_name">First Name</label>
                   <Input
                     type="text"

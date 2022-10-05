@@ -99,7 +99,8 @@ class Login extends Component {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-12 App">
-                        <div className="col-md-6 card card-container">
+                        <div className="col-md-8 card card-container">
+                            <h2> Sign In</h2>
                             <img
                                 src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
                                 alt="profile-img"
@@ -138,7 +139,7 @@ class Login extends Component {
 
                                 <div className="form-group">
                                     <button
-                                        className="btn btn-primary btn-block"
+                                        className="btn mt-3 btn-primary btn-block"
                                         disabled={this.state.loading}
                                     >
                                         {this.state.loading && (
