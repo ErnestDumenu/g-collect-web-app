@@ -1,5 +1,5 @@
 
-import "./modal.module.css";
+// import "./modal.module.css";
 import React, { useState, useEffect } from "react";
 import { RiCloseLine } from "react-icons/ri";
 
@@ -34,7 +34,7 @@ const Orders = ({ setIsOpen }) => {
                         <h5 className="heading">{this.content.message}</h5>
                     </div>
                     <button className="closeBtn" onClick={() => setIsOpen(false)}>
-                        <RiCloseLine style={{ marginBottom: "-3px" }} />
+                        {/* <RiCloseLine style={{ marginBottom: "-3px" }} /> */}
                     </button>
                     <div className="modalContent">
                         Are you sure you want to delete the item?

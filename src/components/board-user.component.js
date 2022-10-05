@@ -57,7 +57,7 @@ const BoardUser = () => {
           <p>Click Here to view your receipts from previous requests and Orders </p>
           <img src={receipts} alt="Receipt"></img>
         </button>
-        {isOpen && <Orders setIsOpen={setIsOpen} />}
+        {isOpen && <Modal setIsOpen={setIsOpen} />}
       </div>
     </div>
   );
